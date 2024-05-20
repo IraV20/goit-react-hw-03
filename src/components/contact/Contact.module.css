@@ -1,0 +1,33 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 8px;
+  min-width: 320px;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contactContent li {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.contactItem p {
+  margin: 0;
+}
+
+.contactBtnDelete {
+  align-self: center;
+  min-width: 92px;
+  height: auto;
+  border: 1px solid #656565;
+  border-radius: 4px;
+  font-family: inherit;
+}
